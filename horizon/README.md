@@ -4,7 +4,7 @@ $ sudo npm install -g horizon
 ```
 ## Initialize an example application
 ```bash
-$ hz init example_app #run this command under ./Visualization/
+$ hz init example_app #run this command under ./Visualization/horizon/
 ```
 ## Starting the Horizon server
 ```bash
