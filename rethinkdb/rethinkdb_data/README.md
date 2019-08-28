@@ -15,3 +15,5 @@ $ rethinkdb #run this command under ./Visualization/rethinkdb/
 #info: Listening for administrative HTTP connections on port 8080
 #info: Server ready
 ```
+## Reference
+https://rethinkdb.com/docs/start-a-server/
