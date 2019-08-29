@@ -1,8 +1,8 @@
 # Visualization
 ## Data Visualization with RethinkDB
-![image](rethinkdb_structure.png)
+![image](./img/rethinkdb_structure.png)
 ## Data Visualization with Firebase
-![image](firebase_structure.png)
+![image](./img/firebase_structure.png)
 
 ## Getting started
 1. [Install and setup RethinkDB](./rethinkdb/rethinkdb_data/README.md)
