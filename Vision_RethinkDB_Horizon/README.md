@@ -40,8 +40,8 @@ Now, we can visualize the data stored in the RethinkDB. In this repository, we h
       aggr_func:
       ```
       ![image](../img/content.png)
-4.
-![image](../img/show_chart.png)
+4. Show the chart
+      ![image](../img/show_chart.png)
 
 ## Reference
 https://github.com/Destinia/Vision
