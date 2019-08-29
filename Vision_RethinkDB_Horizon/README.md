@@ -42,7 +42,26 @@ Now, we can visualize the data stored in the RethinkDB. In this repository, we h
       ![image](../img/content.png)
 4. Show the chart
       ![image](../img/show_chart.png)
-
+## Switch the backend from RethinkDB to Firebase
+In `src/connectors/index.js` line 9:
+```javascript
+export * from './rethinkdb-horizon'
+```
+change to
+```javascript
+export * from './firestore'
+```
+and add a configuration file called `firebase-config.json` in `./src/connectors/`.
+The format of this configuration file is listed as follow:
+```json
+{  "apiKey": "",
+   "authDomain": "",
+   "databaseURL": "",
+   "projectId": "",
+   "storageBucket": "",
+   "messagingSenderId": ""
+}
+```
 ## Reference
 https://github.com/Destinia/Vision
 
