@@ -9,6 +9,9 @@ $ hz init example_app #run this command under ./Visualization/horizon/
 ## Starting the Horizon server
 ```bash
 $ hz serve --dev #run this command under ./Visualization/horizon/example-app/
+#info: App available at http://127.0.0.1:8181
+#info: Starting Horizon...
+#info: 🌄 Horizon ready for connections
 ```
 ## Configuration file for the Horizon server
 `./horizon/example-app/.hz/config.toml` is a TOML configuration file for the Horizon server.
@@ -28,7 +31,7 @@ bind = ["localhost", "192.168.11.43"] # IP binding
 # 'start_rethinkdb' will run an internal RethinkDB instance
 # 'rdb_timeout' is the number of seconds to wait when connecting to RethinkDB
 #------------------------------------------------------------------------------
-connect = "192.168.11.43:28015" # client driver connections of RethinkDB
+connect = "192.168.11.43:28015" # client driver address of RethinkDB
 # start_rethinkdb = false
 # rdb_timeout = 30
 ```
